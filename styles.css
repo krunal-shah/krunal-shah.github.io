@@ -110,6 +110,16 @@ h1 {
   letter-spacing: -0.025em;
 }
 
+.profile-photo {
+  display: block;
+  width: 158px;
+  height: 158px;
+  margin: 0 0 1rem;
+  border-radius: 50%;
+  object-fit: cover;
+  object-position: 50% 43%;
+}
+
 .role {
   margin-bottom: 0.75rem;
   color: var(--muted);
@@ -201,9 +211,22 @@ h1 {
   font-size: 0.8rem;
 }
 
-.entry > p {
-  margin-bottom: 0;
+.work-points {
+  margin: 0;
+  padding-left: 1.15rem;
   color: #464a4f;
+}
+
+.work-points li {
+  padding-left: 0.15rem;
+}
+
+.work-points li + li {
+  margin-top: 0.4rem;
+}
+
+.work-points strong {
+  color: var(--ink);
 }
 
 .publication-list {

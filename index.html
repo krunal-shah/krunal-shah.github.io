@@ -29,6 +29,7 @@
     <section class="intro" id="top" aria-labelledby="intro-title">
       <aside class="profile" aria-label="Profile and contact information">
         <h1 id="intro-title">Krunal<br>Shah</h1>
+        <img class="profile-photo" src="images/krunal-shah.jpg" alt="Krunal Shah smiling at a table" width="768" height="1024" fetchpriority="high">
         <p class="role">Member of Technical Staff<br>Yutori</p>
         <div class="profile-links">
           <span><a href="mailto:ktgshah@gmail.com">ktgshah at gmail dot com</a></span>
@@ -59,8 +60,9 @@
         <p>
           Previously, I worked on Gemini model quality and helped launch
           <a href="https://gemini.google/overview/canvas/" target="_blank" rel="noreferrer">Gemini Canvas</a>.
-          Before that, I worked on applied perception for Google Assistant. I studied computer
-          science at the University of Pennsylvania and electrical engineering at IIT Delhi.
+          Before that, I worked on applied perception for Google Assistant. Earlier research
+          with Dan Roth explored reasoning and robust evaluation for multiple-choice QA; with
+          Mausam and Parag Singla, I worked on large-scale question answering for tourism.
         </p>
       </div>
     </section>
@@ -73,11 +75,12 @@
           <h3>Post-training and agent systems</h3>
           <p>Yutori · 2025–present</p>
         </div>
-        <p>
-          Leading an on-policy expert-distillation recipe for Navigator and experimenting with
-          data mixtures, objectives, and expert selection. I also work across the orchestration,
-          execution, and quality stack behind Scouts and Delegate.
-        </p>
+        <ul class="work-points">
+          <li><strong>Agent orchestration.</strong> Designed and owned the architecture of Yutori’s agent stack, building its first version from scratch and evolving it with the team across asynchronous execution, interrupts, context management, and 100+ tools.</li>
+          <li><strong>Scouts.</strong> Co-own the orchestration, execution, and quality stack for always-on web agents; helped reduce launch-time serving cost by nearly 10× through multi-agent and prompt optimizations.</li>
+          <li><strong>Delegate.</strong> Co-led its design and build from scratch through launch, iterating with user feedback toward reliable, hands-off task delegation.</li>
+          <li><strong>Post-training.</strong> Leading an on-policy expert-distillation recipe for Navigator, including experiments with data mixtures, objectives, and expert selection.</li>
+        </ul>
       </article>
 
       <article class="entry">
@@ -85,11 +88,10 @@
           <h3>Gemini model quality and Canvas</h3>
           <p>Google Gemini · 2024–2025</p>
         </div>
-        <p>
-          Contributed to a Gemini model release using on-policy distillation, including work on
-          quality parity for sensitive topics. Helped launch Gemini Canvas and worked on its
-          training recipe, evaluations, and prompting experiments.
-        </p>
+        <ul class="work-points">
+          <li><strong>Model training.</strong> Contributed to a Gemini release using on-policy distillation and led work on quality parity for sensitive topics.</li>
+          <li><strong>Gemini Canvas.</strong> Helped launch the product and contributed to its training recipe, evaluations, and prompting experiments.</li>
+        </ul>
       </article>
 
       <article class="entry">
@@ -97,10 +99,10 @@
           <h3>Applied perception</h3>
           <p>Google Assistant · 2021–2024</p>
         </div>
-        <p>
-          Worked on Look and Talk, using language models to improve false accepts and false
-          rejects, and federated learning to improve the vision model.
-        </p>
+        <ul class="work-points">
+          <li><strong>Look and Talk.</strong> Used language models to improve false accepts and false rejects.</li>
+          <li><strong>Federated learning.</strong> Co-led work to improve the feature’s vision model.</li>
+        </ul>
       </article>
     </section>
 
