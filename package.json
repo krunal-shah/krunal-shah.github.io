@@ -1,0 +1,12 @@
+{
+  "name": "krunal-shah-site",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "vite build"
+  },
+  "devDependencies": {
+    "@openai/sites-vite-plugin": "0.2.0",
+    "vite": "8.0.14"
+  }
+}
