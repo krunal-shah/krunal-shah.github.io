@@ -118,9 +118,17 @@ h1 {
 }
 
 .profile-links {
-  display: flex;
-  gap: 0.8rem;
   font-size: 0.82rem;
+}
+
+.profile-links span {
+  display: block;
+  margin-bottom: 0.25rem;
+  color: var(--muted);
+}
+
+.profile-links a + a {
+  margin-left: 0.8rem;
 }
 
 .interests {
